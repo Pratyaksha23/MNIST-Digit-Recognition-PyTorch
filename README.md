@@ -55,7 +55,8 @@ model.eval()
 Add screenshots or example prediction images in the `images/` folder and reference them here:
 
 ```markdown
-![Sample Predictions](images/sample_predictions.png)
+![Prediction 1](images/pred1.jpeg)
+![Prediction 2](images/pred2.jpeg)
 ```
 
 ---
