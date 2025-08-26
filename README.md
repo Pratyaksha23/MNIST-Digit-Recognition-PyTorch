@@ -52,8 +52,7 @@ model.eval()
 
 ## 📈 Results
 
-Add screenshots or example prediction images in the `images/` folder and reference them here:
-
+Predictions of the Model:
 ```markdown
 ![Prediction 1](images/pred1.jpeg)
 ![Prediction 2](images/pred2.jpeg)
