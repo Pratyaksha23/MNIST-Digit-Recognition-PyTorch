@@ -1,6 +1,6 @@
 # 🖊️ MNIST Digit Recognition with PyTorch
 
-This project implements a **handwritten digit recognition system** using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) and **PyTorch**. It demonstrates the complete workflow: **loading data, building & training a neural network, saving model weights, reloading them, and visualizing predictions** in Google Colab.
+This project implements a **handwritten digit recognition system** using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) and **PyTorch** and then and deploy as an interactive Streamlit web app. It demonstrates the complete workflow: **loading data, building & training a neural network, saving model weights, reloading them, and applying them to make a streamlit web app**. Users can draw digits (0–9) on a canvas, and the model instantly predicts the number — just like a mini AI-powered whiteboard!
 
 ---
 
@@ -21,7 +21,7 @@ This project implements a **handwritten digit recognition system** using the [MN
 To run this project, install the following dependencies:
 
 ```bash
-pip install torch torchvision matplotlib
+pip install torch torchvision matplotlib streamlit streamlit-drawable-canvas
 ```
 ---
 
@@ -69,6 +69,7 @@ MNIST-Digit-Recognition/
 │   └── digit_recognition_0.pth
 │── README.md                        # This file
 │── images/                          # Example output images for README
+├── app.py
 ```
 
 ---
